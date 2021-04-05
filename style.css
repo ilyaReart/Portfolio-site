@@ -151,6 +151,7 @@ a.intro__button:hover {
 }
 
 .slides {
+  position: relative;
   background-color: #10c9c3;
   opacity: 0.7;
   overflow: hidden;
@@ -171,6 +172,15 @@ a.intro__button:hover {
   line-height: 36px;
   text-align: center;
 
+}
+.radio_container{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 95%;
+  width: 100%;
+  align-items: flex-end;
+  padding-bottom: 50px;
 }
 
 .slider-content {
@@ -278,6 +288,9 @@ a.intro__button:hover {
   justify-content: flex-end;
   background-color: #1d1d1d;
   height: 300px;
+ }
+ .contact__container{
+
  }
  
  

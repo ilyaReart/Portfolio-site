@@ -1,0 +1,36 @@
+.menu {
+   width: 100%;
+   display: flex;
+   font-family: "Montserrat", sans-serif;
+   font-size: 24px;
+   font-weight: bold;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: 24px;
+   text-align: right;
+   text-transform: uppercase;
+   margin-right: 40px;
+ }
+ 
+ .menu__item {
+   display: flex;
+   justify-content: flex-end;
+   font-style: normal;
+   letter-spacing: 1.2px;
+   line-height: normal;
+   margin-right: 15px;
+   color: white;
+   text-decoration: none;
+ }
+ 
+ .menu__item:active,
+ .menu__item:visited {
+   text-decoration: none;
+ }
+ 
+ .menu__item_active {
+   color:#1d1d1d;
+   font-style: normal;
+   letter-spacing: 1.2px;
+   line-height: normal;
+ }

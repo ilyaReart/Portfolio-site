@@ -1,0 +1,13 @@
+
+ .contact{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #1d1d1d;
+  height: 300px;
+ }
+ .contact__container{
+
+ }
+ 
+ 

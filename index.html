@@ -2,7 +2,12 @@
 <html lang="eng">
   <head>
     <title>ReArt</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/default.css" />
+    <link rel="stylesheet" href="style/menu.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/about.css" />
+    <link rel="stylesheet" href="style/skills.css" />
+    <link rel="stylesheet" href="style/contact.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
@@ -45,9 +50,11 @@
       <div class="slider">
         <div class="slides">
           <div class="radio_container">
-            <input type="radio" name="r" id="r1" />
-            <input type="radio" name="r" id="r2" />
-            <input type="radio" name="r" id="r3" />
+            <div class="radio_container-box">
+              <input type="radio" name="r" id="r1" />
+              <input type="radio" name="r" id="r2" />
+              <input type="radio" name="r" id="r3" />
+            </div>
           </div>
           <div class="slider-content" id="slider">
             <div class="slide" id="slide1">
@@ -79,7 +86,10 @@
         <div class="skills__container">
           <img src="image/icons/jsLogo.png" width="120" height="164" alt="1" />
           <div class="skills__titlebox">JavaScript</div>
-          <div class="skills__textbox">for frontend development</div>
+          <div class="skills__textbox">
+            text-based programming language used both on the client-side and
+            server-side that allows you to make web pages interactive.
+          </div>
         </div>
         <div class="skills__container">
           <img
@@ -89,12 +99,18 @@
             alt="2"
           />
           <div class="skills__titlebox">html</div>
-          <div class="skills__textbox">for web-development</div>
+          <div class="skills__textbox">
+            allows the user to create and structure sections, paragraphs,
+            headings, links, and blockquotes for web pages and applications
+          </div>
         </div>
         <div class="skills__container">
           <img src="image/icons/cssLogo.png" width="120" height="164" alt="3" />
           <div class="skills__titlebox">css</div>
-          <div class="skills__textbox">for makeing project</div>
+          <div class="skills__textbox">
+            for describing the presentation of Web pages, including colors,
+            layout, and fonts.
+          </div>
         </div>
         <div class="skills__container">
           <img
